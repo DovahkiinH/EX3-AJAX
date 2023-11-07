@@ -14,12 +14,28 @@
 
 <body>
 
-    <h1>Recherche de films</h1>
-    <input type="text" id="search-input" placeholder="Rechercher un film">
-    <button id="search-button">Rechercher</button>
-    <div id="search-results">
+    <div class="container">
+
+        <h1>Recherche de films</h1>
+
+        <div class="input-group mb-3">
+
+            <input type="text" id="search-input" class="form-control" placeholder="Rechercher un film">
+
+            <div class="input-group-append">
+
+                <button id="search-button" class="btn btn-primary">Rechercher</button>
+
+            </div>
+
+        </div>
+
+        <div id="search-results">
+
+        </div>
         
     </div>
+
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="/Assets/Ajax.js"></script>
